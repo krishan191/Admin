@@ -6,9 +6,9 @@ const API_URL = import.meta.env.VITE_APP_THEME_API_URL;
 // const USER_URL = "/users";
 // const GET_USERS_URL = "/users/query";
 
-const USER_URL = `${API_URL}/users`;
-const GET_USERS_URL = `${API_URL}/users/query`;
-const CREATE_USERS_URL = `${API_URL}/users/create`;
+const USER_URL = "api/users";
+const GET_USERS_URL = "api/users/query";
+const CREATE_USERS_URL = "api/users/create";
 // console.log(USER_URL);
 
 const getUsers = async (query: string): Promise<UsersQueryResponse> => {
